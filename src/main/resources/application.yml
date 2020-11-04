@@ -1,8 +1,12 @@
 spring:
+  application:
+    name: TMS
   boot:
     admin:
       client:
         url: "http://localhost:8000"
+        username: "admin"
+        password: "admin"
 management:
   endpoints:
     web:
